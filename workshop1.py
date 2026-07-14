@@ -1,6 +1,6 @@
 quantity = int(input("จำนวนปืนที่รับมาขาย (กระบอก) : "))
-cost_price = int(input("ต้นทุนของปืนที่รับ (บาท/กระบอก) : "))
-sell_price = int(input("ราคาที่จะนำไปขายต่อ (บาท/กระบอก) : "))
+cost_price = float(input("ต้นทุนของปืนที่รับ (บาท/กระบอก) : "))
+sell_price = float(input("ราคาที่จะนำไปขายต่อ (บาท/กระบอก) : "))
 team_member = int(input("จำนวนลูกน้องในทีมที่ไปทำงาน (คน) : "))
 
 income = sell_price * quantity
