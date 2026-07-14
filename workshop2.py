@@ -1,0 +1,5 @@
+name = input("ชื่อ : ")
+age = int(input("อายุ (ปี) : "))
+height = float(input("ส่วนสูง (cm) : "))
+strength = int(input("พละกำลัง (1-10) : "))
+money = float(input("เงินติดตัว (Starter Pack Dollar) : "))
